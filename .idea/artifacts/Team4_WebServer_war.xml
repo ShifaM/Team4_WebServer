@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Team4_WebServer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Team4_WebServer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rest.war">
+      <element id="artifact" artifact-name="Team4_WebServer:war exploded" />
+    </root>
+  </artifact>
+</component>
