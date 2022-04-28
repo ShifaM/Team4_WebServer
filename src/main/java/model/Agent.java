@@ -6,9 +6,9 @@ import javax.persistence.*;
 @Table(name = "agents")
 public class Agent {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "AgentId", nullable = false)
-    private Integer id;
+    private Integer agtId;
 
     @Column(name = "AgtFirstName", length = 20)
     private String agtFirstName;
@@ -39,11 +39,11 @@ public class Agent {
     private String agtPassword;
 
     public Integer getId() {
-        return id;
+        return agtId;
     }
 
     public void setId(Integer id) {
-        this.id = id;
+        this.agtId = id;
     }
 
     public String getAgtFirstName() {

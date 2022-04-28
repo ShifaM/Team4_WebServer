@@ -57,7 +57,7 @@ public class PackagesResource {
     @PUT
     @Consumes({MediaType.APPLICATION_JSON}) // MAKE SURE YOU ADD CURLY BRACES WITHIN THIS ANNOTATION
     @Produces(MediaType.APPLICATION_JSON)
-    @Path("putpackage")
+    @Path("insertpackage")
     public String putPackage(String jsonString) {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("default");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
