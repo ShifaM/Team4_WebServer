@@ -17,9 +17,12 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="EclipseLink" />
         <datasource-mapping>
-          <factory-entry name="default" />
+          <factory-entry name="default" value="02762efc-5aa1-4bf5-a32b-ad59bf672e88" />
+          <factory-entry name="package" value="02762efc-5aa1-4bf5-a32b-ad59bf672e88" />
         </datasource-mapping>
-        <naming-strategy-map />
+        <naming-strategy-map>
+          <unit-entry name="default" />
+        </naming-strategy-map>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
